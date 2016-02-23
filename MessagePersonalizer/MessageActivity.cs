@@ -42,7 +42,6 @@ namespace MessagePersonalizer
 			{
 				string currentText=editText.Text;
 				editText.Text=string.Format("{0}{1}",currentText,"%@%");
-
 				int count= editText.Text.Count();
 				decimal nrOfMessages=count/160;
 				decimal decimalPointValue=nrOfMessages - Math.Floor(nrOfMessages) ;

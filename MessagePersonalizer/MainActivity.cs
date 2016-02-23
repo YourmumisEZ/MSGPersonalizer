@@ -58,7 +58,7 @@ namespace MessagePersonalizer
 		}
 		public override bool OnOptionsItemSelected(IMenuItem item)
 		{
-			if (item.ItemId == 2131099654) 
+			if (item.ItemId == 2131099657) 
 			{
 				Global.SelectedContacts = contactList.Where(x => x.Checked == true).ToList();
 				Intent intent= new Intent(this,typeof(MessageActivity));

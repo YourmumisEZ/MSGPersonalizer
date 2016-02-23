@@ -1,8 +1,8 @@
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\MessagePersonalizer.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\Mono.Android.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\mscorlib.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.Core.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.Xml.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.Runtime.Serialization.dll
-E:\xamarin\Projects\MessagePersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.ServiceModel.Internals.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\MessagePersonalizer.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\Mono.Android.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\mscorlib.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.Core.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.Xml.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.Runtime.Serialization.dll
+E:\xamarin\MSGPersonalizer\MessagePersonalizer\obj\Debug\assemblies\System.ServiceModel.Internals.dll

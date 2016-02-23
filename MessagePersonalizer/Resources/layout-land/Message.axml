@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView2" />
         <Button
-            android:text="Introduce placehodler here"
+            android:text="Introduce placeholder here"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/textView2"
