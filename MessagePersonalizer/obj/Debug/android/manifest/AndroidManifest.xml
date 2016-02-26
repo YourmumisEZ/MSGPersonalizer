@@ -13,6 +13,7 @@
       </intent-filter>
     </activity>
     <activity android:label="Write Message" android:name="md57ddf991da7672b2c940dfa77f7b165fc.MessageActivity" />
+    <activity android:label="SummaryActivity" android:name="md57ddf991da7672b2c940dfa77f7b165fc.SummaryActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="yourmimisez.messagepersonalizer.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

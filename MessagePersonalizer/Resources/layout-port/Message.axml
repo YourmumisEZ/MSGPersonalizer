@@ -12,7 +12,7 @@
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_below="@id/textView1"
-        android:maxLength="320"
+        android:maxLength="319"
         android:layout_height="wrap_content"
         android:id="@+id/editText1" />
     <RelativeLayout

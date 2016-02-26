@@ -51,6 +51,7 @@
     <Compile Include="Models\PhoneElement.cs" />
     <Compile Include="MessageActivity.cs" />
     <Compile Include="Models\Global.cs" />
+    <Compile Include="SummaryActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

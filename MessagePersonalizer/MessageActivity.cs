@@ -15,12 +15,13 @@ namespace MessagePersonalizer
 	public class MessageActivity : Activity
 	{
 		List<PhoneElement> selectedContacts;
+		EditText editText;
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
 			SetContentView (Resource.Layout.Message);
 			selectedContacts = Global.SelectedContacts;
-			EditText editText = FindViewById<EditText>(Resource.Id.editText1);
+			editText = FindViewById<EditText>(Resource.Id.editText1);
 			TextView messagesTextView = FindViewById<TextView>(Resource.Id.textView2);
 			editText.TextChanged += (object sender, Android.Text.TextChangedEventArgs e) => {
 				
@@ -29,7 +30,7 @@ namespace MessagePersonalizer
 				decimal decimalPointValue=nrOfMessages - Math.Floor(nrOfMessages) ;
 				if(decimalPointValue==0)
 				{
-					messagesTextView.Text=string.Format("Messages: {0}",nrOfMessages);
+					messagesTextView.Text=string.Format("Messages: {0}",nrOfMessages+1);
 				}
 				else 
 				{
@@ -47,7 +48,7 @@ namespace MessagePersonalizer
 				decimal decimalPointValue=nrOfMessages - Math.Floor(nrOfMessages) ;
 				if(decimalPointValue==0)
 				{
-					messagesTextView.Text=string.Format("Messages: {0}",nrOfMessages);
+					messagesTextView.Text=string.Format("Messages: {0}",nrOfMessages+1);
 				}
 				else 
 				{
@@ -58,11 +59,12 @@ namespace MessagePersonalizer
 		}
 		public override bool OnOptionsItemSelected(IMenuItem item)
 		{
-//			if (item.ItemId == 2131099654) 
-//			{
-//				Intent intent= new Intent(this,typeof(MessageActivity));
-//				StartActivityForResult(intent, 0);
-//			}
+			if (item.ItemId == 2131099657) 
+			{
+				Intent intent= new Intent(this,typeof(SummaryActivity));
+				intent.PutExtra (editText.Text,"message");
+				StartActivityForResult(intent, 0);
+			}
 			return base.OnOptionsItemSelected(item);
 		}
 		public override bool OnCreateOptionsMenu (IMenu menu)
